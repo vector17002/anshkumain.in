@@ -3,11 +3,11 @@ import ProjectCard from "../projectCard"
 
 const Project = () => {
   return (
-    <div id='skills' className='w-full flex flex-col mx-2 mt-10'>
+    <div id='projects' className='w-full flex flex-col mx-2 mt-10'>
         <p className='text-2xl md:text-4xl font-bold'>Projects</p>
-        <div className='grid grid-cols-2 gap-8 mt-10'>
+        <div className='grid md:grid-cols-2 gap-8 mt-10 grid-cols-1'>
             {projects?.map((project) => (
-                <ProjectCard project={project}/>
+                <ProjectCard project={project} key={project.name}/>
             ))}
         </div>
     </div>

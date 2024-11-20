@@ -8,6 +8,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-start w-full max-w-2xl mx-auto mb-16">
       <Hero/>
       <Project/>
+      <Skills/>
       </div>
     </main>
   );
