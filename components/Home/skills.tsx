@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Badge } from '../ui/badge'
 import { skills } from '@/lib/constants'
 
@@ -7,7 +8,10 @@ const Skills = () => {
         <p className='text-2xl md:text-4xl font-bold'>Skills</p>
         <div className='flex flex-wrap gap-3 mt-10 text-lg'>
             {skills.map((skill) => (
-                <Badge className='px-2 py-1 rounded-xl'>{skill}</Badge>
+              <div key={skill.name} className='flex w-full h-full'>
+                <p>{skill.name}</p>
+                <img src={skill.icon} alt={skill.name}/>
+               </div>
             ))}
         </div>
     </div>
