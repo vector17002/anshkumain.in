@@ -1,19 +1,109 @@
 export const skills = [
-    // "Typescript", "React", "Next", "PostgresSQL", "Drizzle", "Node", "Express", "MongoDB", "Javascript", "Java", "C++", "Docker", "Git"
-    {
-      name: "React",
-      icon: "https://skillicons.dev/icons?i=react",
-      tag: "FR",
-      type: "Working"
-    },
-    {
-      name:"Typescript",
-      icon: "https://skillicons.dev/icons?i=typescript",
-      tag: "Lang",
-      type: "Other"
-    }
-]
+  {
+    name: "Next",
+    icon: "https://skillicons.dev/icons?i=nextjs",
+    tag: "Full-stack",
+    type: "Working"
+  },
+  {
+    name: "React",
+    icon: "https://skillicons.dev/icons?i=react",
+    tag: "Front-end",
+    type: "Working"
+  },
+  {
+    name: "Node",
+    icon: "https://skillicons.dev/icons?i=nodejs",
+    tag: "Back-end",
+    type: "Other"
+  },
+  {
+    name: "Express",
+    icon: "https://skillicons.dev/icons?i=express",
+    tag: "Back-end",
+    type: "Other"
+  },
 
+  {
+    name: "MongoDB",
+    icon: "https://skillicons.dev/icons?i=mongodb",
+    tag: "Database",
+    type: "Other"
+  },
+  {
+    name: "PostgresSQL",
+    icon: "https://skillicons.dev/icons?i=postgres",
+    tag: "Database",
+    type: "Working"
+  }, 
+
+  {
+    name: "Drizzle",
+    icon: "./drizzle.png",
+    tag: "ORM",
+    type: "Working"
+  },
+  {
+    name: "Typescript",
+    icon: "https://skillicons.dev/icons?i=typescript",
+    tag: "Lang",
+    type: "Working"
+  },
+  {
+    name: "Javascript",
+    icon: "https://skillicons.dev/icons?i=javascript",
+    tag: "Lang",
+    type: "Other"
+  },
+  {
+    name: "Java",
+    icon: "https://skillicons.dev/icons?i=java",
+    tag: "Lang",
+    type: "Other"
+  },
+  {
+    name: "C++",
+    icon: "https://skillicons.dev/icons?i=cpp",
+    tag: "Lang",
+    type: "Other"
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://skillicons.dev/icons?i=tailwind",
+    tag: "Front-end",
+    type: "Working"
+  },
+  {
+    name: "HTML",
+    icon: "https://skillicons.dev/icons?i=html",
+    tag: "Front-end",
+    type: "Other"
+  },
+  {
+    name: "CSS",
+    icon: "https://skillicons.dev/icons?i=css",
+    tag: "Front-end",
+    type: "Other"
+  },
+  {
+    name: "Docker",
+    icon: "https://skillicons.dev/icons?i=docker",
+    tag: "DevOps",
+    type: "Other"
+  },
+  {
+    name: "Git",
+    icon: "https://skillicons.dev/icons?i=git",
+    tag: "VersionControl",
+    type: "Working"
+  },
+  {
+    name: "Postman",
+    icon: "https://skillicons.dev/icons?i=postman",
+    tag: "API testing",
+    type: "Other"
+  }
+];
 export const projects = [
     {
       name: "Anime Bucket",
@@ -44,6 +134,16 @@ export const projects = [
       source_code_link: "https://github.com/vector17002/Article-summarizer",
       link:"https://sumz.vercel.app",
       type: "FE"
+    },
+    {
+      name: "Dev Sync",
+      icon: "./vercel.svg",
+      shortDescription:"Building something unique stay tuned !!!",
+      image:[],
+      tags:["React", "Next", "Postgres", "Drizzle", "Getstream-io", "Clerk-authentication"],
+      source_code_link: "https://github.com/vector17002/DevSync",
+      link: "",
+      type: "FS"
     },
   ];
 

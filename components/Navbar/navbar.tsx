@@ -16,12 +16,12 @@ const Navbar = () => {
            <Link href={'#skills'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
             Skills
            </Link>
-           <Link href={'/#contact'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
+           <Link href={'/#contacts'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
             Contact
            </Link>
         </div>
         <div className='flex sm:hidden gap-6 text-gray-500'>
-            <Link href={'/'} className='font-semibold'>Home</Link>
+            <Link href={'/#skills'} className='font-semibold'>Skills</Link>
             <Link href={'/#projects'} className='font-semibold'>Projects</Link>
         </div>
     </div>
