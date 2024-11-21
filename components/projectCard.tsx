@@ -5,6 +5,7 @@ import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "./ui/badge";
+import { GithubIcon, Link2 } from "lucide-react";
 
 
 export default function ProjectCard({project} : {project : ProjectType}) {
@@ -56,15 +57,18 @@ export default function ProjectCard({project} : {project : ProjectType}) {
                     </p>
                   ))}
                 </div>
-                <div className="flex justify-between items-center w-full">
+                <div className="flex justify-between items-center w-full mt-2">{
+                project.link && (
                 <Link href={project.link} target="_blank">
-                  <Badge className="rounded-full">
+                  <Badge className="rounded-full gap-1 flex">
                     Live
+                    <Link2 className="h-3 w-3"/>
                   </Badge>
-                 </Link>
+                 </Link>)}
                  <Link href={project.source_code_link} target="_blank">
-                  <Badge className="rounded-full">
-                    Github
+                  <Badge className="rounded-full gap-1 flex">
+                    <GithubIcon className="w-3 h-3"/>
+                    Source
                   </Badge>
                   </Link>
                 </div>
