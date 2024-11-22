@@ -1,5 +1,7 @@
 import { skills } from '@/lib/constants'
 import { Separator } from '../ui/separator'
+import { motion } from 'framer-motion'
+import { textVariant } from '@/lib/motion'
 
 const Skills = () => {
   const current = skills.filter((skill) => skill.type === 'Working')
@@ -8,7 +10,7 @@ const Skills = () => {
     <div id='skills' className='w-full flex flex-col mx-2 mt-10'>
         <p className='text-2xl md:text-4xl font-bold'>Tech Stack</p>
         <div className='flex flex-col items-start mt-8'>
-         <p className='text-lg font-semibold'>Current tech-stack</p>
+         <p className='text-lg font-semibold text-neutral-500'>Tech-stack (Hands-on Experience) </p>
         <div className='flex flex-wrap w-full gap-4 mt-5'>
             {current.map((skill) => (
               <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
@@ -20,8 +22,8 @@ const Skills = () => {
               </div>
             ))}
         </div>
-        <Separator className='mt-10 bg-black dark:bg-gray-100 w-full min-w-5xl'/>
-        <p className='text-lg font-semibold mt-5'>Known tech-stack</p>
+        <Separator className='mt-10 bg-neutral-500 dark:bg-neutral-500'/>
+        <p className='text-lg font-semibold mt-5 text-neutral-500'>Tech-stack (Practiced) </p>
         <div className='flex flex-wrap w-full gap-4 mt-5'>
             {other.map((skill) => (
               <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
