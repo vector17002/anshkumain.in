@@ -8,10 +8,14 @@ import { GithubIcon, Link2 } from "lucide-react";
 
 
 export default function ProjectCard({project} : {project : ProjectType}) {
+  /* eslint-disable-next-line prefer-const */
   let mouseX = useMotionValue(0);
+  /* eslint-disable-next-line prefer-const */
   let mouseY = useMotionValue(0);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function onMouseMove({ currentTarget, clientX, clientY } : { currentTarget : any, clientX: any, clientY: any }) {
+
     let { left, top } = currentTarget.getBoundingClientRect();
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
@@ -78,8 +82,8 @@ export default function ProjectCard({project} : {project : ProjectType}) {
   );
 }
 
-//@ts-ignore
-function HoverPattern({ mouseX, mouseY, ...gridProps }) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function HoverPattern({ mouseX, mouseY } : {mouseX : any , mouseY : any}) {
   let maskImage = useMotionTemplate`radial-gradient(300px at ${mouseX}px ${mouseY}px, white, transparent)`;
   let style = { maskImage, WebkitMaskImage: maskImage };
 
