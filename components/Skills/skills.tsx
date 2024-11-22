@@ -1,7 +1,5 @@
 import { skills } from '@/lib/constants'
 import { Separator } from '../ui/separator'
-import { motion } from 'framer-motion'
-import { textVariant } from '@/lib/motion'
 
 const Skills = () => {
   const current = skills.filter((skill) => skill.type === 'Working')
