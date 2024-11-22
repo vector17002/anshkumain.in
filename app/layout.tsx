@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+      <link rel="shortcut icon" href="./logo.png" />
+      </head>
       <body
         className={`bg-slate-50 dark:bg-zinc-900 antialiased`}
       >
