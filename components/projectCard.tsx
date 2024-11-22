@@ -1,4 +1,3 @@
-//@ts-nocheck
 "use client"
 import { ProjectType } from "@/lib/constants";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
@@ -12,7 +11,7 @@ export default function ProjectCard({project} : {project : ProjectType}) {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);
 
-  function onMouseMove({ currentTarget, clientX, clientY }) {
+  function onMouseMove({ currentTarget, clientX, clientY } : { currentTarget : any, clientX: any, clientY: any }) {
     let { left, top } = currentTarget.getBoundingClientRect();
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
@@ -79,6 +78,7 @@ export default function ProjectCard({project} : {project : ProjectType}) {
   );
 }
 
+//@ts-ignore
 function HoverPattern({ mouseX, mouseY, ...gridProps }) {
   let maskImage = useMotionTemplate`radial-gradient(300px at ${mouseX}px ${mouseY}px, white, transparent)`;
   let style = { maskImage, WebkitMaskImage: maskImage };
