@@ -15,28 +15,27 @@ export const skills = [
     name: "Node",
     icon: "https://skillicons.dev/icons?i=nodejs",
     tag: "Back-end",
-    type: "Other"
+    type: "Working"
   },
   {
     name: "Express",
     icon: "https://skillicons.dev/icons?i=express",
     tag: "Back-end",
-    type: "Other"
+    type: "Working"
   },
 
   {
     name: "MongoDB",
     icon: "https://skillicons.dev/icons?i=mongodb",
     tag: "Database",
-    type: "Other"
+    type: "Working"
   },
   {
-    name: "PostgresSQL",
+    name: "Postgres",
     icon: "https://skillicons.dev/icons?i=postgres",
     tag: "Database",
     type: "Working"
   }, 
-
   {
     name: "Drizzle",
     icon: "./drizzle.png",
@@ -44,9 +43,15 @@ export const skills = [
     type: "Working"
   },
   {
+    name: "Prisma",
+    icon: "https://skillicons.dev/icons?i=prisma",
+    tag: "ORM",
+    type: "Other"
+  },
+  {
     name: "Typescript",
     icon: "https://skillicons.dev/icons?i=typescript",
-    tag: "Lang",
+    tag: "Better Javascript",
     type: "Working"
   },
   {
@@ -101,6 +106,12 @@ export const skills = [
     name: "Postman",
     icon: "https://skillicons.dev/icons?i=postman",
     tag: "API testing",
+    type: "Working"
+  },
+  {
+    name: "Redis",
+    icon: "https://skillicons.dev/icons?i=redis",
+    tag: "Database",
     type: "Other"
   }
 ];
@@ -128,7 +139,7 @@ export const projects = [
     {
       name: "Sumz",
       icon: "./sumz.svg",
-      shortDescription:"An AI-powered application that quickly generates concise summaries from article urls.",
+      shortDescription:"An AI-powered application that generates concise summaries from article urls.",
       image:[],
       tags:["Next", "React", "Axios", "Javascript", "AI Api"],
       source_code_link: "https://github.com/vector17002/Article-summarizer",
@@ -138,7 +149,7 @@ export const projects = [
     {
       name: "Dev Sync",
       icon: "./vercel.svg",
-      shortDescription:"Building something unique stay tuned !!!",
+      shortDescription:"Building something unique stay tuned",
       image:[],
       tags:["React", "Next", "Postgres", "Drizzle", "Getstream-io", "Clerk-authentication"],
       source_code_link: "https://github.com/vector17002/DevSync",
@@ -147,4 +158,42 @@ export const projects = [
     },
   ];
 
+  export const experiences = [
+    {
+      title: "System Engineer",
+      organisation: "Tata Consultancy Service",
+      icon: "./tcs.png",
+      date: "Dec 2024 - Present",
+      points: [
+        "Going to join TCS as a System Engineer to kickstart my career.",
+      ],
+    },
+  ];
+
+  export const educations = [
+    {
+      title: "BTech (Information Technology)",
+      organisation: "Bharati Vidyapeeth College of Engineering, GGSIPU",
+      icon: "./college.jpg",
+      date: "Sept 2020 - July 2024",
+      cgpa: "83.5"
+    },
+    {
+      title: "Senior Secondary School (XII CBSE)",
+      organisation: "Delhi Police Public School, New Delhi, India",
+      icon: "./xii.png",
+      date: "April 2018 - March 2020",
+      cgpa: "94.6"
+    },
+    {
+      title: "High School (X CBSE)",
+      organisation: "Delhi Police Public School, New Delhi, India",
+      icon: "./x.png",
+      date: "April 2007 - March 2018",
+      cgpa: "86.4"
+    },
+  ];
+
+  export type EducationType = typeof educations[0]
+  export type ExperienceType = typeof experiences[0]
   export type ProjectType = typeof projects[0]
