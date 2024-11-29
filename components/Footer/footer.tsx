@@ -6,7 +6,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div id='contacts' className='mt-10 w-full flex flex-col gap-5  text-neutral-500 dark:text-neutral-400 font-medium text-sm'>
+    <div id='contacts' className='mt-20 w-full flex flex-col gap-5  text-neutral-500 dark:text-neutral-400 font-medium text-sm'>
       <Separator className='mt-20 bg-neutral-500 dark:bg-neutral-500'/>
       <div className='flex justify-around items-start'>
         <div className='flex flex-col items-start gap-5'>
