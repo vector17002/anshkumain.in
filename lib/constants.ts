@@ -129,7 +129,7 @@ export const projects = [
     {
       name: "Slack cord",
       icon: "./slackcord.svg",
-      shortDescription:"A chat app with MERN, JWT authentication and Socket.IO, achieving real time communication.",
+      shortDescription:"A chat app using MERN, JWT authentication and Socket.IO, achieving real time communication.",
       tags: ["React","Node","Express","MongoDB","Socket.io","Typescript"],
       image:[],
       source_code_link: "https://github.com/vector17002/slackcord",
@@ -149,7 +149,7 @@ export const projects = [
     {
       name: "Dev Sync",
       icon: "./vercel.svg",
-      shortDescription:"Building something unique stay tuned",
+      shortDescription:"Building something unique stay tuned.....🚀",
       image:[],
       tags:["React", "Next", "Postgres", "Drizzle", "Getstream-io", "Clerk-authentication"],
       source_code_link: "https://github.com/vector17002/DevSync",
@@ -163,7 +163,7 @@ export const projects = [
       title: "System Engineer",
       organisation: "Tata Consultancy Service",
       icon: "./tcs.png",
-      date: "Dec 2024 - Present",
+      date: "Upcoming",
       points: [
         "Going to join TCS as a System Engineer to kickstart my career.",
       ],
