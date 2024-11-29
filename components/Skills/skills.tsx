@@ -1,5 +1,4 @@
 import { skills } from '@/lib/constants'
-import { Separator } from '../ui/separator'
 
 const Skills = () => {
   const current = skills.filter((skill) => skill.type === 'Working')

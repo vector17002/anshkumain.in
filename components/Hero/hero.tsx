@@ -1,6 +1,6 @@
-import { Download, Locate } from "lucide-react"
+import { Download } from "lucide-react"
 import Image from "next/image"
-import { MdLocationCity, MdLocationPin } from "react-icons/md"
+import { MdLocationPin } from "react-icons/md"
 
 export const Hero = () => {
   return (
