@@ -19,8 +19,8 @@ export const Hero = () => {
             <Image width={100} height={100} src={"/avatar.jpg"} alt={"avatar"} className="object-contain rounded-lg dark:border-r-white border-2 dark:border-t-white"/>
             <div className="text-sm font-medium flex items-center my-1"> <MdLocationPin/> Delhi, India</div>
             <a
-  href="/resume.pdf"
-  download="AnshKumain_resume.pdf"
+  href="/AnshKumainResume.pdf"
+  download="AnshKumain_Resume.pdf"
   className="flex items-center gap-2 text-sm p-2 border-2 rounded-lg font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black"
 >
 <Download className="w-4 h-4"/>
