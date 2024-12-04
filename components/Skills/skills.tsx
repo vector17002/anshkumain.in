@@ -12,7 +12,7 @@ const Skills = () => {
             {current.map((skill) => (
               <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
                 <div className='w-full flex flex-col justify-center items-start h-full'>
-                <p className='font-semibold text-base'>{skill.name}</p>
+                <p className='font-semibold text-sm'>{skill.name}</p>
                 <p className={`text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs font-medium italic bg-gray-100 dark:bg-gray-800 p-1`} >{skill.tag}</p>
                 </div>
                 <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>
@@ -24,7 +24,7 @@ const Skills = () => {
             {other.map((skill) => (
               <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
                 <div className='w-full flex flex-col justify-center items-start h-full'>
-                <p className='font-semibold text-base'>{skill.name}</p>
+                <p className='font-semibold text-sm'>{skill.name}</p>
                 <p className={`text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs font-medium italic bg-gray-100 dark:bg-gray-800 p-1`} >{skill.tag}</p>
                 </div>
                 <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>

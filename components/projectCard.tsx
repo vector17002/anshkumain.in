@@ -47,7 +47,7 @@ export default function ProjectCard({project} : {project : ProjectType}) {
                 <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                   {project.name}
                 </h4>
-                <p className="leading-6 pt-4 text-base font-medium text-gray-700 dark:text-gray-300">
+                <p className="leading-6 pt-4 text-sm font-medium text-gray-700 dark:text-gray-300">
                   {project.shortDescription}
                 </p>
                 <div className="pt-4 flex md:flex-row flex-wrap">
