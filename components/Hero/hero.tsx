@@ -17,7 +17,7 @@ export const Hero = () => {
         </div>
         <div className="relative flex-shrink-1 p-4 md:p-4 md:order-last order-first">
             <Image width={100} height={100} src={"/avatar.jpg"} alt={"avatar"} className="object-contain rounded-lg dark:border-r-white border-2 dark:border-t-white"/>
-            <div className="text-sm font-medium flex items-center my-1"> <MdLocationPin/> Delhi, India</div>
+            <div className="text-sm font-medium flex items-center my-1 gap-1"> <MdLocationPin/> Delhi, India</div>
             <a
   href="/AnshKumainResume.pdf"
   download="AnshKumain_Resume.pdf"
