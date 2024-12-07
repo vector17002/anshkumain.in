@@ -1,5 +1,4 @@
 import { skills } from '@/lib/constants'
-import Image from 'next/image'
 
 const Skills = () => {
   const current = skills.filter((skill) => skill.type === 'Working')
