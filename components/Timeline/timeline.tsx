@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
-import { BsArrowUp, BsGraphUpArrow, BsPatchCheckFill } from "react-icons/bs";
+import { BsArrowUp, BsPatchCheckFill } from "react-icons/bs";
 
 const Divider = () => {
   return (
