@@ -7,7 +7,7 @@ export const ExTimeline = ({ events } : {events : ExperienceType[]}) => {
       {events.map((event, index) => (
         <div key={index} className="mb-10 ml-4 flex items-start">
           {/* Image */}
-          <img 
+          <img
             src={event.icon} 
             alt={event.title} 
             className="w-10 h-10 rounded-full border-2 border-blue-500 dark:border-green-400 -left-5 absolute" 

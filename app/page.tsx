@@ -1,7 +1,9 @@
+import Contact from "@/components/Contact/contact";
 import Footer from "@/components/Footer/footer";
 import { Hero } from "@/components/Hero/hero";
 import Project from "@/components/Project/projects";
 import Skills from "@/components/Skills/skills";
+import Timeline from "@/components/Timeline/timeline";
 import { EducationExperience } from "@/components/Work/work";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       <EducationExperience/>
       <Project/>
       <Skills/>
+      <Timeline/>
+      <Contact/>
       <Footer/>
       </div>
     </main>
