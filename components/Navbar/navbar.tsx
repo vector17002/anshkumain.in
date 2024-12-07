@@ -16,6 +16,9 @@ const Navbar = () => {
            <Link href={'#skills'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
             Skills
            </Link>
+           <Link href={'/#about'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
+            About
+           </Link>
            <Link href={'/#contacts'} className='relative px-3 inline-block py-2 text-sm bg-inherit text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900 hover:bg-slate-100 mx-2'>
             Contact
            </Link>
