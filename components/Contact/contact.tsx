@@ -7,7 +7,7 @@ export default function Contact() {
         Want to hire me? Let&apos;s discuss.
       </h5>
       <p className="mb-5 text-gray-800 dark:text-gray-200">
-        Drop your message and Let&apos;s discuss about your needs.
+        Drop your message,and Let&apos;s discuss your needs.
       </p>
       <div className="flex justify-between">
       <Link
