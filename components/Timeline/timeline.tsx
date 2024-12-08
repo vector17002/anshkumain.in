@@ -101,13 +101,13 @@ export default function Timeline() {
       </h3>
       <Year>2024</Year>
       <ul>
-      <Step title="First offer - Got Placed ✨">
+      <Step title="First offer - Successfully Placed ✨">
           After facing several challenges in securing opportunities due to circumstances out of my control, finally got my first offer from 
           <span className="font-bold dark:text-white"> <Link href="https://www.hashedin.com" target="__blank"> HashedIn by Deloitte.</Link> </span>
         </Step>
         <Step title="Multiple offers after many rejections. ✨">
-          Had 2 offers in Hand. Both Off-Campus in the Software
-          Developer roles. Choose  <span className="font-bold dark:text-white"> <Link href="https://www.tcs.com" target="__blank"> Tata Consultancy Services </Link> </span> to start my career.
+          Received 2 offers in Hand. Both Off-Campus in the Software
+          Developer roles. Chose  <span className="font-bold dark:text-white"> <Link href="https://www.tcs.com" target="__blank"> Tata Consultancy Services </Link> </span> to start my career.
         </Step>
         <Step title="Joining the company 🚀">
           Excited for joining TCS and starting my career as a Software Developer.
