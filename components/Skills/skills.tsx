@@ -10,24 +10,24 @@ const Skills = () => {
          <p className='text-lg font-semibold text-neutral-500'>Tech-stack (Hands-on Experience) </p>
         <div className='flex flex-wrap w-full gap-4 mt-5'>
             {current.map((skill) => (
-              <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
+              <div key={skill.name} className='flex w-max h-full items-center gap-2 border-2 k px-2 py-1 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300'>
+                <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>
                 <div className='w-full flex flex-col justify-center items-start h-full'>
                 <p className='font-semibold text-sm'>{skill.name}</p>
                 <p className={`text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs font-medium italic bg-gray-100 dark:bg-gray-800 p-1`} >{skill.tag}</p>
                 </div>
-                <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>
               </div>
             ))}
         </div>
         <p className='text-lg font-semibold mt-5 text-neutral-500'>Tech-stack (Practiced) </p>
         <div className='flex flex-wrap w-full gap-4 mt-5'>
             {other.map((skill) => (
-              <div key={skill.name} className='flex w-max h-full items-center gap-3 border-2 k px-2 py-1'>
+              <div key={skill.name} className='flex w-max h-full items-center gap-2 border-2 k px-2 py-1 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300'>
+                <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>
                 <div className='w-full flex flex-col justify-center items-start h-full'>
                 <p className='font-semibold text-sm'>{skill.name}</p>
                 <p className={`text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs font-medium italic bg-gray-100 dark:bg-gray-800 p-1`} >{skill.tag}</p>
                 </div>
-                <img src={skill.icon} alt={skill.name} className='w-10 h-10'/>
               </div>
             ))}
         </div>
