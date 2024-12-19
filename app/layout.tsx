@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar/navbar";
 
 
 export const metadata: Metadata = {
-  title: "Ansh Kumain",
-  description: "Explore Ansh Kumain's portfolio with cutting-edge web projects, industry insights, and a seamless way to connect!",
+  title: "Ansh Kumain - Developer",
+  description: "Explore Ansh Kumain portfolio with cutting-edge web projects and a seamless way to connect!",
 };
 
 export default function RootLayout({
